@@ -1,3 +1,11 @@
+/* VARIABLES */
+:root {
+  --decrement-bg-color: #BF360C;
+  --increment-bg-color: #2E7D32;
+  --reset-bg-color: #0277BD;
+}
+
+/* STYLES */
 .counterBlock {
   display: flex;
   flex-direction: column;
@@ -25,13 +33,13 @@
 }
 
 .decrementButton {
-  background-color: red;
+  background-color: var(--decrement-bg-color);
 }
 
 .incrementButton {
-  background-color: green;
+  background-color: var(--increment-bg-color);
 }
 
 .resetButton {
-  background-color: blue;
+  background-color: var(--reset-bg-color);
 }
