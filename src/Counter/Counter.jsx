@@ -1,6 +1,10 @@
+import styles from "./Counter.module.css";
+
 function Counter() {
   return(
-    <div></div>
+    <div className={styles.counter}>
+      <h1>Counter</h1>
+    </div>
   )
 }
 
