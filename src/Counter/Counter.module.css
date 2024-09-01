@@ -1,4 +1,37 @@
+.counterBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
 .counter {
+  font-size: 10rem;
+}
+
+.counterButtons {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.incrementButton, .decrementButton, .resetButton {
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 2rem;
+}
+
+.decrementButton {
+  background-color: red;
+}
+
+.incrementButton {
+  background-color: green;
+}
+
+.resetButton {
+  background-color: blue;
 }
