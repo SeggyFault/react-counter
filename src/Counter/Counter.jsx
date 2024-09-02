@@ -6,15 +6,15 @@ function Counter() {
   const [counter, setCounter] = useState(0);
 
   const decrementCounter = () => {
-    counter <= 0 ? setCounter(0) : setCounter(counter - 1);
+    counter <= 0 ? setCounter(0) : setCounter(c => c - 1);
   }
 
   const incrementCounter = () => {
-    setCounter(counter + 1);
+    setCounter(c => c + 1);
   }
 
   const resetCounter = () => {
-    setCounter(0);
+    setCounter(c => c = 0);
   }
 
   return(
